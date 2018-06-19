@@ -31,7 +31,7 @@ U 1 1 5B22CCCA
 P 2950 2000
 F 0 "JP1" V 3000 2200 50  0000 C CNN
 F 1 "SB_0" V 2900 2200 50  0000 C CNN
-F 2 "footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 2950 2000 50  0001 C CNN
+F 2 "footprints:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2950 2000 50  0001 C CNN
 F 3 "~" H 2950 2000 50  0001 C CNN
 	1    2950 2000
 	0    1    1    0   
@@ -42,7 +42,7 @@ U 1 1 5B22CD87
 P 3800 2000
 F 0 "JP3" V 3850 2200 50  0000 C CNN
 F 1 "SB_1" V 3750 2200 50  0000 C CNN
-F 2 "footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 3800 2000 50  0001 C CNN
+F 2 "footprints:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3800 2000 50  0001 C CNN
 F 3 "~" H 3800 2000 50  0001 C CNN
 	1    3800 2000
 	0    1    1    0   
@@ -53,7 +53,7 @@ U 1 1 5B22CEA8
 P 3450 3750
 F 0 "JP2" V 3500 4000 50  0000 C CNN
 F 1 "REF_5V" V 3400 4000 50  0000 C CNN
-F 2 "footprints:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 3450 3750 50  0001 C CNN
+F 2 "footprints:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3450 3750 50  0001 C CNN
 F 3 "~" H 3450 3750 50  0001 C CNN
 	1    3450 3750
 	0    1    1    0   
