@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 5906 5906
 encoding utf-8
-Sheet 2 9
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -58,25 +58,6 @@ Wire Wire Line
 	2750 2250 2750 2150
 Wire Wire Line
 	2750 3000 2750 3150
-$Comp
-L Device:Q_Photo_NPN Q1
-U 1 1 5B320903
-P 3150 2850
-AR Path="/5B31F56C/5B320903" Ref="Q1"  Part="1" 
-AR Path="/5B32527D/5B320903" Ref="Q2"  Part="1" 
-AR Path="/5B3280EC/5B320903" Ref="Q3"  Part="1" 
-AR Path="/5B3280EF/5B320903" Ref="Q4"  Part="1" 
-AR Path="/5B32922D/5B320903" Ref="Q5"  Part="1" 
-AR Path="/5B329230/5B320903" Ref="Q6"  Part="1" 
-AR Path="/5B329235/5B320903" Ref="Q7"  Part="1" 
-AR Path="/5B329238/5B320903" Ref="Q8"  Part="1" 
-F 0 "Q1" H 3340 2896 50  0000 L CNN
-F 1 "DETECT_0" H 3340 2805 50  0000 L CNN
-F 2 "LEDs:LED_D5.0mm" H 3350 2950 50  0001 C CNN
-F 3 "~" H 3150 2850 50  0001 C CNN
-	1    3150 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 3050 3250 3150
 $Comp
@@ -161,4 +142,23 @@ F 3 "" H 3000 3250 50  0001 C CNN
 $EndComp
 Text HLabel 3500 2600 2    50   Output ~ 0
 OUTPUT
+$Comp
+L Device:Q_Photo_NPN_EC Q3
+U 1 1 5B29B338
+P 3350 2850
+AR Path="/5B3280EC/5B29B338" Ref="Q3"  Part="1" 
+AR Path="/5B31F56C/5B29B338" Ref="Q1"  Part="1" 
+AR Path="/5B32527D/5B29B338" Ref="Q2"  Part="1" 
+AR Path="/5B3280EF/5B29B338" Ref="Q4"  Part="1" 
+AR Path="/5B32922D/5B29B338" Ref="Q5"  Part="1" 
+AR Path="/5B329230/5B29B338" Ref="Q6"  Part="1" 
+AR Path="/5B329235/5B29B338" Ref="Q7"  Part="1" 
+AR Path="/5B329238/5B29B338" Ref="Q8"  Part="1" 
+F 0 "Q1" H 3172 2896 50  0000 R CNN
+F 1 "DETECT" H 3172 2805 50  0000 R CNN
+F 2 "LEDs:LED_D5.0mm" H 3550 2950 50  0001 C CNN
+F 3 "~" H 3350 2850 50  0001 C CNN
+	1    3350 2850
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
