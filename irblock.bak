@@ -1,0 +1,116 @@
+EESchema Schematic File Version 4
+LIBS:IRSensorArray-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 5906 5906
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5B3208F2
+P 2750 2850
+F 0 "D?" V 2800 2950 50  0000 L CNN
+F 1 "EMITTER" V 2700 2950 50  0000 L CNN
+F 2 "" H 2750 2850 50  0001 C CNN
+F 3 "~" H 2750 2850 50  0001 C CNN
+	1    2750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B3208F9
+P 2750 2400
+F 0 "R?" H 2681 2354 50  0000 R CNN
+F 1 "330R" H 2681 2445 50  0000 R CNN
+F 2 "" V 2680 2400 50  0001 C CNN
+F 3 "~" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2700 2750 2550
+Wire Wire Line
+	2750 2250 2750 2150
+Wire Wire Line
+	2750 3000 2750 3150
+$Comp
+L Device:Q_Photo_NPN Q?
+U 1 1 5B320903
+P 3150 2850
+F 0 "Q?" H 3340 2896 50  0000 L CNN
+F 1 "DETECT_0" H 3340 2805 50  0000 L CNN
+F 2 "" H 3350 2950 50  0001 C CNN
+F 3 "~" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3050 3250 3150
+$Comp
+L Device:R R?
+U 1 1 5B32090B
+P 3250 2400
+F 0 "R?" H 3181 2354 50  0000 R CNN
+F 1 "10k0" H 3181 2445 50  0000 R CNN
+F 2 "" V 3180 2400 50  0001 C CNN
+F 3 "~" H 3250 2400 50  0001 C CNN
+	1    3250 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3250 2250 3250 2150
+Wire Wire Line
+	3250 2600 3500 2600
+Connection ~ 3250 2600
+Wire Wire Line
+	3250 2600 3250 2550
+Wire Wire Line
+	3250 2650 3250 2600
+Wire Wire Line
+	3250 2150 3000 2150
+$Comp
+L power:+5V #PWR?
+U 1 1 5B323CD0
+P 3000 2050
+F 0 "#PWR?" H 3000 1900 50  0001 C CNN
+F 1 "+5V" H 3015 2223 50  0000 C CNN
+F 2 "" H 3000 2050 50  0001 C CNN
+F 3 "" H 3000 2050 50  0001 C CNN
+	1    3000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2150 3000 2050
+Connection ~ 3000 2150
+Wire Wire Line
+	3000 2150 2750 2150
+Wire Wire Line
+	2750 3150 3000 3150
+Wire Wire Line
+	3000 3150 3000 3250
+Connection ~ 3000 3150
+Wire Wire Line
+	3000 3150 3250 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5B323F60
+P 3000 3250
+F 0 "#PWR?" H 3000 3000 50  0001 C CNN
+F 1 "GND" H 3005 3077 50  0000 C CNN
+F 2 "" H 3000 3250 50  0001 C CNN
+F 3 "" H 3000 3250 50  0001 C CNN
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 2600 2    50   Output ~ 0
+OUTPUT
+$EndSCHEMATC
