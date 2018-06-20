@@ -542,8 +542,6 @@ Wire Wire Line
 	7700 2500 7600 2500
 Wire Wire Line
 	7600 2500 7600 2650
-Text Notes 7750 1950 0    50   ~ 0
-Todo: make it so \nyou can't short this
 $Sheet
 S 4550 4750 650  300 
 U 5B31F56C
