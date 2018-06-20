@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\comsa\Documents\IRSensorArray\IRSensorArray.sch)
-    (date "6/20/2018 12:20:13 AM")
+    (date "6/20/2018 9:00:21 AM")
     (tool "Eeschema (5.0.0-rc2-63-gd4393b281)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -156,6 +156,8 @@
       (value 10k0)
       (footprint Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name DNP) DNP))
       (libsource (lib Device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B22DC0E))
@@ -163,6 +165,8 @@
       (value 10k0)
       (footprint Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name DNP) DNP))
       (libsource (lib Device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B22DC9A))
