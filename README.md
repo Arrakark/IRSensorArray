@@ -48,7 +48,7 @@ This project was created using KiCad 5 RC2. Use it to open and edit this design.
 
 ## Installing
 
-Install the sensor array using two M3 screws and standoffs. **There is no reverse polarity protection. If you connect several arrays backwards, they will burn out!** Be careful. 
+Install the sensor array using two M3 screws and standoffs.
 
 ## Signal Control
 
@@ -56,8 +56,9 @@ Use the library included with this repo to read the values of the sensors.
 
 Use the following code to create a sensor array object:
 ```
-SensorArray array1(I2C Bus);
+SensorArray array1(lookup_table, I2C ID);
 ```
+See the header file for an example.
 
 ## License
 
